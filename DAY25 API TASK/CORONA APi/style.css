@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400&family=Rubik:wght@300&display=swap");
+/* font-family: 'Roboto Slab', serif;
+font-family: 'Rubik', sans-serif; */
+.body {
+  background-color: rgb(46, 47, 48);
+}
+.column:nth-child(odd) {
+  background-color: rgb(113, 115, 119);
+}
+
+.card-header {
+  border: none;
+  background: #525258;
+  font-family: "Roboto Slab", serif;
+}
+.card-body {
+  background: linear-gradient(to right, rgb(78, 78, 75), rgb(209, 144, 3));
+}
+.card-text {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
