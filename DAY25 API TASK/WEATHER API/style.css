@@ -1,0 +1,39 @@
+body {
+  text-align: center;
+  background-color: rgb(107, 105, 105);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.row {
+  margin: 5px;
+}
+img {
+  padding: 5px;
+  border-radius: 10px;
+  margin-top: 25px;
+}
+.card-header {
+  background: none;
+  border: none;
+  background-color: rgb(15, 15, 15);
+}
+.card {
+  background-image: linear-gradient(
+    to right,
+    rgb(206, 203, 12),
+    rgb(209, 144, 3)
+  );
+}
+.but {
+  border-radius: 7px;
+  cursor: pointer;
+  font-size: 15px;
+  background-color: rgb(221, 190, 15);
+}
+.but:hover {
+  background-image: linear-gradient(
+    to right,
+    rgb(232, 209, 248),
+    rgb(193, 171, 200)
+  );
+}
